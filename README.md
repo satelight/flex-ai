@@ -7,7 +7,6 @@ flex-ai
 buildする際はsrc-tauriフォルダに.envファイルを作成すること。
 以下のapiキーの文字列を入力して保存。
 
-
 ```.env
 API_KEY=apiキーの文字列
 ```
