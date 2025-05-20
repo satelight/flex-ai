@@ -1,0 +1,7 @@
+[workspace]
+members = ["flex-ai/src-tauri"]
+resolver = "2"
+
+[workspace.dependencies]
+reqwest = { version = "*", features = ["stream", "json", "rustls-tls"] }
+tokio = { version = "1", features = ["full"] }
